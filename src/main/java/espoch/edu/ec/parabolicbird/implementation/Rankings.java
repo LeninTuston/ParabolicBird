@@ -1,4 +1,7 @@
 package espoch.edu.ec.parabolicbird.implementation;
-public class Rankings {
+
+import espoch.edu.ec.parabolicbird.interfaz.InterfazRanking;
+
+public class Rankings implements InterfazRanking {
     
 }

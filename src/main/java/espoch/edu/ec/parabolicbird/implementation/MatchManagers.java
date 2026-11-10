@@ -1,4 +1,7 @@
 package espoch.edu.ec.parabolicbird.implementation;
-public class MatchManagers {
+
+import espoch.edu.ec.parabolicbird.interfaz.InterfazMatchManager;
+
+public class MatchManagers implements InterfazMatchManager {
     
 }

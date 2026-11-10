@@ -4,19 +4,16 @@ public class Projectile {
 
     private double vo;
     private double angle;
-    private double gravity;
-    private double voX;
-    private double voY;
+    private double gravity=9.8;
+    private double voX=0;
+    private double voY=0;
     private double initialPositionX;
     private double initialPositionY;
 
 //constructor
-    public Projectile(double vo, double angle, double gravity, double voX, double voY, double initialPositionX, double initialPositionY) {
+    public Projectile(double vo, double angle,  double initialPositionX, double initialPositionY) {
         this.vo = vo;
         this.angle = angle;
-        this.gravity = gravity;
-        this.voX = voX;
-        this.voY = voY;
         this.initialPositionX = initialPositionX;
         this.initialPositionY = initialPositionY;
     }
